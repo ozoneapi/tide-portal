@@ -86,8 +86,3 @@ The following rules apply.
 - Same day of the week as the first payment (i.e. if first payment is made on Friday > next payment is made on Friday the following week) - this is number of the week i.e. 1 = monday
 - first two digits after IntrvlMnthWkDay must be set at '01'
 - last two digits after IntrvlMnthWkDay are not taken in to account by Tide (payment will be made as per the day in FirstPaymentDateTime)
-
-
-Tide does not support the following domestic standing order end points:
-
-GET /domestic-standing-orders/{DomesticStandingOrderId}/payment-details
