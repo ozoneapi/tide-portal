@@ -24,7 +24,7 @@ Pagination is supported on GET /accounts/{AccountId}/transactions end point with
 
 Please note GET /transactions end point does not support pagination.
 
-<!-- theme: warning -->
+<!-- theme: danger -->
 > ### Deprecation Warning
 >
 > GET /transactions end point will be deprecated as of 12:00am 01/02/2021
@@ -34,19 +34,22 @@ Please note GET /transactions end point does not support pagination.
 
 Payment recipients are accessible via the Beneficiaries API. Payments are currently only permitted to pre-registered beneficiaries or one of the Member's other accounts (for account transfers). This API is useful when setting up payments.
 
-Tide does not support the "bulk" beneficiaries endpoint `GET /beneficiaries`
+<!-- theme: warning -->
+>
+> Tide does not support the "bulk" beneficiaries endpoint `GET /beneficiaries`
 
 ## Products
 [Products API](/swagger/tide-ais-schema.yaml/paths/~1accounts~1%7BAccountId%7D~1product/get)
 
 Tide currently offers Business Current Accounts and Business E-Money Accounts.
 
-Direct Debits
-Direct Debits API
+## Direct Debits
+[Direct Debits API](/swagger/tide-ais-schema.yaml/paths/~1accounts~1%7BAccountId%7D~1direct-debits/get)
 
-Tide does not support the following direct debits end points:
+<!-- theme: warning -->
+>
+> Tide does not support the "bulk" direct debit endpoint `GET /direct-debits`
 
-GET /directdebits (bulk end point)
 Standing Orders
 Standing Orders API
 
