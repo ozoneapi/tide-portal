@@ -9,7 +9,7 @@
         "include": ["**"]
       },
       "image": {
-        "rootDir": "assets/images", assets
+        "rootDir": "assets/images",
         "include": ["**"]
       },
       "json_schema": {
