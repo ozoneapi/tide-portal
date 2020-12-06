@@ -1,5 +1,8 @@
 # AISP API Overview
 
+## Base URL
+The base URL for all AIS APIs is: `https://rs1.openbanking.api.tide.co:4501/v1.0/open-banking/v3.1/aisp/**`
+
 ## Account Access Consents
 [Account Access Consents API](/swagger/tide-ais-schema.yaml/paths/~1account-access-consents/post)
 
@@ -65,9 +68,7 @@ DateTime elements have been used so that there is consistency across all API end
 ## Parties
 [Parties API](/swagger/tide-ais-schema.yaml/paths/~1accounts~1%7BAccountId%7D~1parties/get)
 
-<!-- theme: info>
->
-> In addition to Open Banking API specification, Tide have additional `SupplementaryData` in the following two end points responses:
+In addition to Open Banking API specification, Tide have additional `SupplementaryData` in the following two end points responses.
 
 | Name | Occurrence |	XPath | EnhancedDefinition |
 |------|------------|-------|--------------------|
@@ -75,15 +76,13 @@ DateTime elements have been used so that there is consistency across all API end
 | VatNumber         |	0..1	| `OBParty2.SupplementaryData.VatNumber` | Account holders VAT number
 | CompanyId \n (0..1) | `OBParty2. SupplementaryData. CompanyId` |	Account holders company number as registered with companies house in the UK
 
-Statements
+## Statements
 Statements API
 
-Tide does not support the following statement end points:
-
-GET /accounts/{AccountId}/statements/{StatementId}
-GET /accounts/{AccountId}/statements/{StatementId}/transactions
-GET /statements
-Endpoints
-The API endpoints for these resources are given below.
-
-They can be accessed from the following baseUrl: https://rs1.openbanking.api.tide.co:4501/v1.0/open-banking/v3.1/aisp/**
+<!-- theme: warning -->
+>
+> Tide does not support the following statement end points:
+>
+> - GET /accounts/{AccountId}/statements/{StatementId}
+> - GET /accounts/{AccountId}/statements/{StatementId}/transactions
+> - GET /statements
