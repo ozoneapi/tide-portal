@@ -72,7 +72,7 @@ In addition to Open Banking API specification, Tide have additional `Supplementa
 
 | Name |	XPath | EnhancedDefinition |
 |------|--------|--------------------|
-| SupplementaryData <br/> 0..1 | `OBParty2. SupplementaryData`|		
+| SupplementaryData <br/> 0..1 | `OBParty2. SupplementaryData` | Supplementary information		
 | VatNumber         <br/>	0..1 | `OBParty2. SupplementaryData. VatNumber` | Account holders VAT number
 | CompanyId         <br/> 0..1 | `OBParty2. SupplementaryData. CompanyId` |	Account holders company number as registered with companies house in the UK
 
