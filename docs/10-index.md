@@ -18,7 +18,7 @@ Please see the following specifications we have aligned with:
 
 - [Dynamic Client Registration (DCR) Specification](): Use this specification to register your TPP client to use our APIs
 - [Open ID Foundation's Financial Grade API (FAPI) Profile](): This specification enables user authentication of consents for open banking
-- [Tide Open Banking API Specification](./swagger/tide-ais-schema.yaml): Based on Open Banking Read/Write API Specification v3.1.2, this specification describes the resources that are available on our service
+- [Tide Open Banking API Specification](../swagger/tide-ais-schema.yaml): Based on Open Banking Read/Write API Specification v3.1.2, this specification describes the resources that are available on our service
 
 
 Account Information Services API
