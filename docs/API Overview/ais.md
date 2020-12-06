@@ -72,8 +72,9 @@ DateTime elements have been used so that there is consistency across all API end
 | Name | Occurrence |	XPath | EnhancedDefinition |
 |------|------------|-------|--------------------|
 | SupplementaryData	| 0..n	| `OBParty2.SupplementaryData`|		
-| VatNumber         |	0..1	| `OBParty2.SupplementaryData.VatNumber` | Account holders VAT number	String
-companyId	0..1	OBParty2/ SupplementaryData/ companyId	Account holders company number as registered with companies house in the UK	String
+| VatNumber         |	0..1	| `OBParty2.SupplementaryData.VatNumber` | Account holders VAT number
+| CompanyId \n (0..1) | `OBParty2. SupplementaryData. CompanyId` |	Account holders company number as registered with companies house in the UK
+
 Statements
 Statements API
 
