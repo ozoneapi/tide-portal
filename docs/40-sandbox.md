@@ -1,4 +1,4 @@
-# API Sandbox
+# Sandbox
 
 Our API Sandbox contains a full simulation of our APIs but without connecting to any real customer accounts. Any developer can access this Sandbox using their own self signed certificates.
 
