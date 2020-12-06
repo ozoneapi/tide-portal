@@ -50,28 +50,29 @@ Tide currently offers Business Current Accounts and Business E-Money Accounts.
 >
 > Tide does not support the "bulk" direct debit endpoint `GET /direct-debits`
 
-Standing Orders
-Standing Orders API
+## Standing Orders
+[Standing Orders API](/swagger/tide-ais-schema.yaml/paths/~1accounts~1%7BAccountId%7D~1standing-orders/get)
 
 DateTime elements have been used so that there is consistency across all API endpoints using dates. However, for Standing Orders we only process based on the day element, therefore, the time portion of the DateTime element will be defaulted to 00:00:00+00:00.
 
-Standing orders will only return FirstPaymentAmount which will be the same amount for the duration of the standing order.
+Standing orders will only return `FirstPaymentAmount` which will be the same amount for the duration of the standing order.
 
-Scheduled Payments
-Scheduled Payments API
+## Scheduled Payments
+[Scheduled Payments API](/swagger/tide-ais-schema.yaml/paths/~1accounts~1%7BAccountId%7D~1scheduled-payments/get)
 
 DateTime elements have been used so that there is consistency across all API endpoints using dates. However, for Standing Orders we only process based on the day element, therefore, the time portion of the DateTime element will be defaulted to 00:00:00+00:00.
 
-Parties
-Parties API
+## Parties
+[Parties API](/swagger/tide-ais-schema.yaml/paths/~1accounts~1%7BAccountId%7D~1parties/get)
 
-Please note that in addition to Open Banking API spec in the above link Tide have an additional section on the following two end points:
+<!-- theme: info>
+>
+> In addition to Open Banking API specification, Tide have additional `SupplementaryData` in the following two end points responses:
 
-GET /accounts/{AccountId}/parties
-GET /accounts/{AccountId}/party
-Name	Occurrence	XPath	EnhancedDefinition	Class
-SupplementaryData	0..n	OBParty2/ SupplementaryData		
-vatNumber	0..1	OBParty2/SupplementaryData/vatNumber	Account holders VAT number	String
+| Name | Occurrence |	XPath | EnhancedDefinition |
+|------|------------|-------|--------------------|
+| SupplementaryData	| 0..n	| `OBParty2.SupplementaryData`|		
+| VatNumber         |	0..1	| `OBParty2.SupplementaryData.VatNumber` | Account holders VAT number	String
 companyId	0..1	OBParty2/ SupplementaryData/ companyId	Account holders company number as registered with companies house in the UK	String
 Statements
 Statements API
