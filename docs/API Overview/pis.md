@@ -1,30 +1,57 @@
-# PISP API Overview
+he# PISP API Overview
 
 ## Base URL
 The base URL for all AIS APIs is: `https://rs1.openbanking.api.tide.co:4501/v1.0/open-banking/v3.1/pisp/**`
 
-## Domestic Payment Consents
+## Supported Payment Types
+The Tide API currently only supports:
+- Domestic Payments
+- Domestic Scheduled Payments
+- Domestic Standing Orders
+
+The Tide API __does not__ support:
+- International payments
+- File & Bulk payments
+- `payment-details` end-points 
+
+## Overview
+
 
 ### `InstructedAmount/Amount`
 - There is no MAX `InstructedAmount/Amount` mandated by Tide API. 
 - 50,000 GBP is the default maximum when opening a Tide account, but thresholds can be managed by the customer. Tide suggest PISP notify the PSU that the same limits apply as in their Tide app. It is possible from time to time that `domestic-payment-consents` is authorised, but the payment initiation fails due to account limits.
 
 ### `InstructedAmount/Currency`
-- InstructedAmount/Currency must be GBP
+- `InstructedAmount/Currency` must be `GBP`
 
-RemittanceInformation/Reference is mandatory field and must adhere to the following:
-Valid characters - "A-Z", "0-9", "space", "&", "-", ".", "/"
-Contiguous characters – user enters 6 or more valid characters but without contiguous string of at least 6 alphanumeric characters - Must contain a contiguous string of at least 6 alphanumeric characters
-Homogeneous string – user enters 6 or more valid characters (including valid non-alphanumeric characters) - After stripping out non-alphanumeric characters the resulting string cannot consist of all the same character
-*PISP may also opt to populate reference field on behalf of the PSU
+### `RemittanceInformation/Reference` 
+`RemittanceInformation/Reference` is a mandatory field and must adhere to the following:
+- Valid characters - "A-Z", "0-9", "space", "&", "-", ".", "/"
+- Contiguous characters – user enters 6 or more valid characters but without contiguous string of at least 6 alphanumeric characters 
+- Must contain a contiguous string of at least 6 alphanumeric characters
+- Homogeneous string – user enters 6 or more valid characters (including valid non-alphanumeric characters) - After stripping out non-alphanumeric characters the resulting string cannot consist of all the same character
 
-Domestic-payment-consents will only be authorised if the CreditorAccount details are that of an already existing beneficiary i.e. one the PSU has previously created in their app. if a consent contains recipient info that does not meet this criteria then error will be returned to the front end, the consent will remain in status awaiting authorisation and the PSU will not be redirected.
-The PISP can approach this in one of two ways:
-Notify PSU that only payments to existing recipients are permitted and in the event this condition is not met Tide will not authorise the consent and display error modal to user
-Integrate with Tide beneficiaries API and can confirm that the recipient already exists before sending the consent to allow for a better user experience
-Only local instrument supported is faster payment scheme UK.OBIE.FPS, if anything other than this is sent by PISP in consent payload then an error will be returned. However, this field is not mandatory so we suggest PISP simply not include this field and Tide will stage consent as a faster payment.
-Only support Account/SchemeName UK.OBIE.SortCodeAccountNumber for both DebtorAccount and CreditorAccount, any other enum provided will return error.
-Payments can be made on all days including Saturdays, Sundays and Bank Holidays
+The PISP may also opt to populate reference field on behalf of the PSU
+
+### `CreditorAccount`
+<!-- theme: info -->
+> ### Note
+>
+> Domestic-payment-consents will only be authorised if the `CreditorAccount` details are that of an already existing beneficiary i.e. one the PSU has previously created in their app. 
+> If a consent contains recipient info that does not meet this criteria then error will be returned to the front end, the consent will remain in status `AwaitingAuthorisation` and the PSU will not be redirected.
+
+The PISP can address this in one of two ways:
+- Notify PSU that only payments to existing recipients are permitted and in the event this condition is not met Tide will not authorise the consent and display error modal to user
+- Integrate with Tide beneficiaries API and can confirm that the recipient already exists before sending the consent to allow for a better user experience
+
+### `LocalInstrument`
+The only `LocalInstrument` supported is faster payment scheme. This field, if specified, must have the value `UK.OBIE.FPS`. If anything other than this is sent by PISP in consent payload then an error will be returned. 
+
+However, this field is not mandatory so we suggest PISP simply not include this field and Tide will stage consent as a faster payment.
+
+### `Account.SchemeName`
+The only supported `Account.SchemeName` is `UK.OBIE.SortCodeAccountNumber` for both `DebtorAccount` and `CreditorAccount`. Any other enum provided will return error.
+
 Domestic Payments
 Domestic Payments API
 
@@ -33,6 +60,9 @@ Tide does not support the following domestic payments end points:
 GET /domestic-payments/{DomesticPaymentId}/payment-details
 Domestic Scheduled Payment Consents
 Domestic Scheduled Payment Consents API
+
+
+Payments can be made on all days including Saturdays, Sundays and Bank Holidays
 
 There is no MAX 'InstructedAmount/Amount' mandated by Tide API. 50,000 GBP is the default maximum when opening a Tide account, but thresholds can be managed by the customer. Tide suggest PISP notify the PSU that the same limits apply as in their Tide app. It is possible from time to time that domestic-payment-consents is authorised but payment initiation fails due to account limits.
 InstructedAmount/Currency must be GBP
