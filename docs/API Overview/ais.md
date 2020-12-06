@@ -11,7 +11,7 @@ Tide members will have one of the following accounts:
 - Business Current Account
 
 ## Balances
-[Balances API] (swagger/tide-ais-schema.yaml/paths/~1accounts~1%7BAccountId%7D~1balances/get)
+[Balances API](/swagger/tide-ais-schema.yaml/paths/~1accounts~1%7BAccountId%7D~1balances/get)
 
 Balances shown in this endpoint include `Expected`, `InterimAvailable` and `InterimCleared`.
 
@@ -25,18 +25,19 @@ Pagination is supported on GET /accounts/{AccountId}/transactions end point with
 Please note GET /transactions end point does not support pagination.
 
 <!-- theme: warning -->
+> ### Deprecation Warning
+>
 > GET /transactions end point will be deprecated as of 12:00am 01/02/2021
 
-Beneficiaries
-Beneficiaries API
+## Beneficiaries
+[Beneficiaries API](/swagger/tide-ais-schema.yaml/paths/~1accounts~1%7BAccountId%7D~1beneficiaries/get)
 
 Payment recipients are accessible via the Beneficiaries API. Payments are currently only permitted to pre-registered beneficiaries or one of the Member's other accounts (for account transfers). This API is useful when setting up payments.
 
-Tide does not support the following beneficiaries end points:
+Tide does not support the "bulk" beneficiaries endpoint `GET /beneficiaries`
 
-GET /beneficiaries (bulk end point)
-Products
-Products API
+## Products
+[Products API](/swagger/tide-ais-schema.yaml/paths/~1accounts~1%7BAccountId%7D~1product/get)
 
 Tide currently offers Business Current Accounts and Business E-Money Accounts.
 
