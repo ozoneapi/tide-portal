@@ -1,10 +1,7 @@
 # AISP API Overview
 
-Resource Details
-Below we have captured the Tide specific details of the standard API endpoints.
-
-Account Access Consents
-Account Access Consents API
+## Account Access Consents
+[Account Access Consents API](/swagger/tide-ais-schema.yaml/paths/~1account-access-consents/post)
 
 Accounts
 Accounts API
