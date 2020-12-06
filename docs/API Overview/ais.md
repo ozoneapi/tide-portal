@@ -3,26 +3,29 @@
 ## Account Access Consents
 [Account Access Consents API](/swagger/tide-ais-schema.yaml/paths/~1account-access-consents/post)
 
-Accounts
-Accounts API
+## Accounts
+[Accounts API](/swagger/tide-ais-schema.yaml/paths/~1accounts/get)
 
 Tide members will have one of the following accounts:
+- E-money Business Wallet
+- Business Current Account
 
-E-money Business Wallet
-Business Current Account
-Balances
-Balances API
+## Balances
+[Balances API] (swagger/tide-ais-schema.yaml/paths/~1accounts~1%7BAccountId%7D~1balances/get)
 
-Balances shown in this endpoint include Expected, InterimAvailable and InterimCleared, however Expected balance is the value displayed most widely to our members within the Tide apps.
+Balances shown in this endpoint include `Expected`, `InterimAvailable` and `InterimCleared`.
 
-Transactions
-Transactions API
+`Expected` balance is the value displayed most widely to our members within the Tide apps.
+
+## Transactions
+[Transactions API](swagger/tide-ais-schema.yaml/paths/~1accounts~1%7BAccountId%7D~1balances/get)
 
 Pagination is supported on GET /accounts/{AccountId}/transactions end point with a page size of 2000 transactions.
 
-Please note GET /transactions end point does not support pagination
+Please note GET /transactions end point does not support pagination.
 
-Attention: GET /transactions end point will be deprecated as of 12:00am 01/02/2021
+<!-- theme: warning -->
+> GET /transactions end point will be deprecated as of 12:00am 01/02/2021
 
 Beneficiaries
 Beneficiaries API
