@@ -11,6 +11,8 @@ info:
     url: 'https://www.openbanking.org.uk/open-licence'
   version: v3.1.1
 basePath: /open-banking/v3.1/aisp
+tags:
+  - AccountAccessConsents
 schemes:
   - https
 consumes:
@@ -23,7 +25,7 @@ paths:
   /account-access-consents:
     post:
       tags:
-        - Account Access
+        - AccountAccessConsents
       summary: Create Account Access Consents
       operationId: CreateAccountAccessConsents
       parameters:
