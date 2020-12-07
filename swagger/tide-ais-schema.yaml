@@ -12,7 +12,10 @@ info:
   version: v3.1.1
 basePath: /open-banking/v3.1/aisp
 tags:
-  - AccountAccessConsents
+  - name: AccountAccessConsents
+    description: Account Access Consents
+  - name: Accounts
+    description: Accounts
 schemes:
   - https
 consumes:
