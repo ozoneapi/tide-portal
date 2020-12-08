@@ -135,7 +135,7 @@ On successful response the TPP can then save the environment file on to their lo
 
 #### Step 3: Import Environment Files and Collections To Postman
 3.1. Import Environment Files and Collections into Postman
-![](../assets/images/postmanimport1.png)
+![postmanimage](../assets/images/postmanimport1.png)
 
 ![](../assets/images/postmanimport2.png)
 
