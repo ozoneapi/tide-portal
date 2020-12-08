@@ -12,6 +12,10 @@
         "rootDir": "assets/images",
         "include": ["**"]
       },
+      "postman": {
+        "rootDir": "assets/postman",
+        "include": ["**"]
+      },
       "json_schema": {
         "rootDir": "models",
         "include": ["**"]
