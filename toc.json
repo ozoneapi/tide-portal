@@ -59,6 +59,10 @@
         "uri": "swagger/tide-pis-schema.yaml"
       },
       {
+        "type": "divider",
+        "title": "Support"
+      },
+      {
         "type": "group",
         "title": "Help",
         "items": [
