@@ -155,18 +155,22 @@ In Postman settings ensure SSL Certificate Verification is set to off.
 #### Step 4: Account Information Flow
 
 4.1) Client Credentials Grant
+
 ![](../assets/images/ccg.png)
 
 4.2) Account Access Consent
+
 ![](../assets/images/accountaccess.png)
 
 4.3) PSU Consent Flow
 TPPs can generate the consent flow URL by postman
+
 ![](../assets/images/consent1.png)
 
 Once the URL is constructed, open the URL to initiate the PSU consent flow
 
 Authenticate user
+
 ![](../assets/images/consent2.png)
 
 Sandbox User Accounts
@@ -178,12 +182,15 @@ Sandbox User Accounts
 | ivsa |	ivsa
 
 Select accounts
+
 ![](../assets/images/consent3.png)
 
 Once the PSU consent is successful, Ozone bank will redirect back to the redirect URI. Copy the Authcode from the URL
+
 ![](../assets/images/consent4.png)
 
 4.4) Generate the access token
+
 ![](../assets/images/accesstoken.png)
 
 #### Step 5: Retrieve Account and Transaction Data
