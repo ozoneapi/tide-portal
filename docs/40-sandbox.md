@@ -170,6 +170,7 @@ Authenticate user
 ![](../assets/images/consent2.png)
 
 Sandbox User Accounts
+
 | user | password |
 |---|---|
 | rora |	rora
