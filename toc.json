@@ -21,6 +21,11 @@
         "uri": "docs/40-sandbox.md"
       },
       {
+        "type": "item",
+        "title": "Planned Updates",
+        "uri": "docs/50-planned-updates.md"
+      },
+      {
         "type": "group",
         "title": "Help",
         "items": [
