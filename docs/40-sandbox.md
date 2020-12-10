@@ -135,9 +135,9 @@ On successful response the TPP can then save the environment file on to their lo
 
 #### Step 3: Import Environment Files and Collections To Postman
 3.1. Import Environment Files and Collections into Postman
-![postmanimage](../assets/images/postmanimport1.png)
+![postmanimage](https://bitbucket.org/ozoneapi/tide-portal/raw/develop/assets/images/postmanimport1.png)
 
-![](../assets/images/postmanimport2.png)
+![](https://bitbucket.org/ozoneapi/tide-portal/raw/develop/assets/images/postmanimport2.png)
 
 3.2) Check URLs and Environments are loaded successfully 
 
@@ -156,22 +156,22 @@ In Postman settings ensure SSL Certificate Verification is set to off.
 
 4.1) Client Credentials Grant
 
-![](../assets/images/ccg.png)
+![](https://bitbucket.org/ozoneapi/tide-portal/raw/develop/assets/images/ccg.png)
 
 4.2) Account Access Consent
 
-![](../assets/images/accountaccess.png)
+![](https://bitbucket.org/ozoneapi/tide-portal/raw/develop/assets/images/accountaccess.png)
 
 4.3) PSU Consent Flow
 TPPs can generate the consent flow URL by postman
 
-![](../assets/images/consent1.png)
+![](https://bitbucket.org/ozoneapi/tide-portal/raw/develop/assets/images/consent1.png)
 
 Once the URL is constructed, open the URL to initiate the PSU consent flow
 
 Authenticate user
 
-![](../assets/images/consent2.png)
+![](https://bitbucket.org/ozoneapi/tide-portal/raw/develop/assets/images/consent2.png)
 
 
 Sandbox User Accounts
@@ -184,21 +184,21 @@ Sandbox User Accounts
 
 Select accounts
 
-![](../assets/images/consent3.png)
+![](https://bitbucket.org/ozoneapi/tide-portal/raw/develop/assets/images/consent3.png)
 
 Once the PSU consent is successful, Ozone bank will redirect back to the redirect URI. Copy the Authcode from the URL
 
-![](../assets/images/consent4.png)
+![](https://bitbucket.org/ozoneapi/tide-portal/raw/develop/assets/images/consent4.png)
 
 4.4) Generate the access token
 
-![](../assets/images/accesstoken.png)
+![](https://bitbucket.org/ozoneapi/tide-portal/raw/develop/assets/images/accesstoken.png)
 
 #### Step 5: Retrieve Account and Transaction Data
 Retrieve Account Data
 
-![](../assets/images/accounts.png)
+![](https://bitbucket.org/ozoneapi/tide-portal/raw/develop/assets/images/accounts.png)
 
 Retrieve Transaction Data
 
-![](../assets/images/transactions.png)
+![](https://bitbucket.org/ozoneapi/tide-portal/raw/develop/assets/images/transactions.png)
