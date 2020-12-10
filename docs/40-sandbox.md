@@ -173,7 +173,6 @@ Authenticate user
 
 ![](../assets/images/consent2.png)
 
-![consent2](../../assets/images/consent2.png)
 
 Sandbox User Accounts
 
