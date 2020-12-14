@@ -46,56 +46,33 @@
       },
       {
         "type": "item",
-        "title": "API Specification",
+        "title": "AISP Overview",
+        "uri": "docs/API Overview/aisp.md"
+      },
+      {
+        "type": "item",
+        "title": "AISP Specification",
         "uri": "swagger/tide-ais-schema.yaml"
       },
       {
-        "type": "group",
-        "title": "AISP",
-        "items": [
-          {
-            "type": "item",
-            "title": "Overview",
-            "uri": "docs/API Overview/ais.md"
-          },
-          {
-            "type": "item",
-            "title": "API Specification",
-            "uri": "swagger/tide-ais-schema.yaml"
-          }
-        ]
+        "type": "item",
+        "title": "AISP Overview",
+        "uri": "docs/API Overview/aisp.md"
       },
       {
-        "type": "group",
-        "title": "PISP",
-        "items": [
-          {
-            "type": "item",
-            "title": "Overview",
-            "uri": "docs/API Overview/pis.md"
-          },
-          {
-            "type": "item",
-            "title": "Payment Initiation API",
-            "uri": "swagger/tide-pis-schema.yaml"
-          }
-        ]
+        "type": "item",
+        "title": "PISP Specification",
+        "uri": "swagger/tide-pis-schema.yaml"
       },
       {
-        "type": "group",
+        "type": "item",
+        "title": "CBPII Overview",
+        "uri": "docs/API Overview/cbpii.md"
+      },
+      {
+        "type": "item",
         "title": "CBPII",
-        "items": [
-          {
-            "type": "item",
-            "title": "Overview",
-            "uri": "docs/API Overview/cbpii.md"
-          },
-          {
-            "type": "item",
-            "title": "Confirmation of Funds API Specification",
-            "uri": "swagger/tide-cbpii-schema.yaml"
-          }
-        ]
+        "uri": "swagger/tide-cbpii-schema.yaml"
       },
       {
         "type": "divider",
