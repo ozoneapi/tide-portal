@@ -14,11 +14,7 @@
         "title": "Getting Started",
         "uri": "docs/70-getting-started.md"
       },
-      {
-        "type": "item",
-        "title": "Security Model",
-        "uri": "docs/20-security-model.md"
-      },
+
       {
         "type": "item",
         "title": "Production",
@@ -35,10 +31,15 @@
           },
           {
             "type": "item",
-            "title": "Step by Step guide",
+            "title": "Step by Step Guide",
             "uri": "docs/80-step-by-step-guide.md"
           }
         ]
+      },
+      {
+        "type": "item",
+        "title": "Security Model",
+        "uri": "docs/20-security-model.md"
       },
       {
         "type": "divider",

@@ -30,12 +30,3 @@ Our Sandbox fully reflects our production environment and provides an easy route
 
 To access the production environment, you must be a TPP authorised by the FCA or passported into the UK. Instructions for accessing our Production APIs are [here](./30-production.md).
 
-### Screen scraping
-<!-- theme: success -->
-
-> For those third party providers wishing to screen scrape, or continue screen scraping against Tide's web channels please connect to `mci.openbanking.tide.co`
->
-> Tide's international currency account information and international payments APIs are available via this modified customer interface.
->
-> If you require test accounts please contact help@tide.co
-

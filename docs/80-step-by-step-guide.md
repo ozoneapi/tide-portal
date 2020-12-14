@@ -1,4 +1,4 @@
-# Step by Step guide to connect to sandbox
+# Guide to connect to sandbox
 
 ## Step 1: Pre-Requisites for TPP
 Ensure that the following pre-requisites are met before onboarding onto Tide.

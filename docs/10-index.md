@@ -21,14 +21,6 @@ Please see the following specifications we have aligned with:
   - [Confirmation Of Funds API](../swagger/tide-cbpii-schema.yaml)
   - [Payment Initiation API](../swagger//tide-pis-schema.yaml)
 
-## Getting started
-
-We recommend that you start off by accessing our [Sandbox](./40-sandbox.md). 
-
-Our Sandbox fully reflects our production environment and provides an easy route to testing out your proposition.
-
-To access the production environment, you must be a TPP authorised by the FCA or passported into the UK. Instructions for accessing our Production APIs are [here](./30-production.md).
-
 ### Screen scraping
 <!-- theme: success -->
 
@@ -37,7 +29,3 @@ To access the production environment, you must be a TPP authorised by the FCA or
 > Tide's international currency account information and international payments APIs are available via this modified customer interface.
 >
 > If you require test accounts please contact help@tide.co
-
-## Getting Started
-
-See our [Getting Started]() page for instructions on accessing our sandbox and production APIs
