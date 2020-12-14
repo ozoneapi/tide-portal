@@ -39,6 +39,3 @@ To access the production environment, you must be a TPP authorised by the FCA or
 >
 > If you require test accounts please contact help@tide.co
 
-## Getting Started
-
-See our [Getting Started]() page for instructions on accessing our sandbox and production APIs

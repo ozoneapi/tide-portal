@@ -25,9 +25,20 @@
         "uri": "docs/30-production.md"
       },
       {
-        "type": "item",
+        "type": "group",
         "title": "Sandbox",
-        "uri": "docs/40-sandbox.md"
+        "items": [
+          {
+            "type": "item",
+            "title": "Overview",
+            "uri": "docs/40-sandbox.md"
+          },
+          {
+            "type": "item",
+            "title": "Step by Step guide",
+            "uri": "docs/80-step-by-step-guide.md"
+          }
+        ]
       },
       {
         "type": "divider",
