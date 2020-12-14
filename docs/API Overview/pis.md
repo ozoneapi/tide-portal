@@ -1,5 +1,16 @@
 # PISP API Overview
 
+The Payment Initiation API Profile describes the flows and common functionality for the Payment Initiation API, which allows a Payment Initiation Service Provider ('PISP') to:
+
+- Register an intent to stage a payment-order consent.
+- Optionally confirm available funds for a payment-order
+- Domestic immediate and scheduled (immediate debit) payments only.
+- Subsequently submit the payment-order for processing.
+- Optionally retrieve the status of a payment-order consent or payment-order resource.
+
+This profile should be read in conjunction with a compatible Read/Write Data API Profile which provides a description of the elements that are common across all the Read/Write Data APIs, and compatible individual resources.
+
+
 ## Base URL
 The base URL for all AIS APIs is: `https://rs1.openbanking.api.tide.co:4501/v1.0/open-banking/v3.1/pisp/**`
 

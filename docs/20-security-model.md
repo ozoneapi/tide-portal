@@ -1,4 +1,4 @@
-# Getting started
+# Security Model
 
 ## Dynamic Client Registration
 

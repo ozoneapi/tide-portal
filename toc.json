@@ -7,8 +7,12 @@
       },
       {
         "type": "item",
-        "title": "Getting started",
-        "uri": "docs/20-getting-started.md"
+        "title": "Getting Started",
+        "uri": "docs/70-getting-started.md"
+      },
+      {
+        "type": "divider",
+        "title": "TPP Onboarding"
       },
       {
         "type": "item",
@@ -16,51 +20,86 @@
         "uri": "docs/30-production.md"
       },
       {
-        "type": "item",
+        "type": "group",
         "title": "Sandbox",
-        "uri": "docs/40-sandbox.md"
+        "items": [
+          {
+            "type": "item",
+            "title": "Overview",
+            "uri": "docs/40-sandbox.md"
+          },
+          {
+            "type": "item",
+            "title": "Step by Step Guide",
+            "uri": "docs/80-step-by-step-guide.md"
+          }
+        ]
+      },
+      {
+        "type": "item",
+        "title": "Security Model",
+        "uri": "docs/20-security-model.md"
+      },
+      {
+        "type": "divider",
+        "title": "API Specifications"
+      },
+      {
+        "type": "group",
+        "title": "AISP",
+        "items": [
+          {
+            "type": "item",
+            "title": "Overview",
+            "uri": "docs/API Overview/ais.md"
+          },
+          {
+            "type": "item",
+            "title": "API Specification",
+            "uri": "swagger/tide-ais-schema.yaml"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "PISP",
+        "items": [
+          {
+            "type": "item",
+            "title": "Overview",
+            "uri": "docs/API Overview/pis.md"
+          },
+          {
+            "type": "item",
+            "title": "Payment Initiation API",
+            "uri": "swagger/tide-pis-schema.yaml"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "CBPII",
+        "items": [
+          {
+            "type": "item",
+            "title": "Overview",
+            "uri": "docs/API Overview/cbpii.md"
+          },
+          {
+            "type": "item",
+            "title": "Confirmation of Funds API Specification",
+            "uri": "swagger/tide-cbpii-schema.yaml"
+          }
+        ]
+      },
+      {
+        "type": "divider",
+        "title": "Support"
       },
       {
         "type": "item",
         "title": "Planned Updates",
         "uri": "docs/50-planned-updates.md"
-      },
-      {
-        "type": "divider",
-        "title": "API Overview"
-      },
-      {
-        "type": "item",
-        "title": "AISP API Overview",
-        "uri": "docs/API Overview/ais.md"
-      },
-      {
-        "type": "item",
-        "title": "PISP API Overview",
-        "uri": "docs/API Overview/pis.md"
-      },
-      {
-        "type": "divider",
-        "title": "APIS"
-      },
-      {
-        "type": "item",
-        "title": "Account and Transaction API Specification",
-        "uri": "swagger/tide-ais-schema.yaml"
-      },
-      {
-        "type": "item",
-        "title": "Confirmation of Funds API Specification",
-        "uri": "swagger/tide-cbpii-schema.yaml"
-      },
-      {
-        "type": "item",
-        "title": "Payment Initiation API",
-        "uri": "swagger/tide-pis-schema.yaml"
-      },
-      {
-        "type": "divider",
-        "title": "Support"
       },
       {
         "type": "group",
