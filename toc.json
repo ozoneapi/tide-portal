@@ -6,15 +6,14 @@
         "uri": "docs/10-index.md"
       },
       {
-        "type": "divider",
-        "title": "TPP Onboarding"
-      },
-      {
         "type": "item",
         "title": "Getting Started",
         "uri": "docs/70-getting-started.md"
       },
-
+      {
+        "type": "divider",
+        "title": "TPP Onboarding"
+      },
       {
         "type": "item",
         "title": "Production",
