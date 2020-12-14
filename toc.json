@@ -6,6 +6,15 @@
         "uri": "docs/10-index.md"
       },
       {
+        "type": "divider",
+        "title": "TPP Onboarding"
+      },
+      {
+        "type": "item",
+        "title": "Getting Started",
+        "uri": "docs/70-getting-started.md"
+      },
+      {
         "type": "item",
         "title": "Security Model",
         "uri": "docs/20-security-model.md"
