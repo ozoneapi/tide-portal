@@ -51,12 +51,7 @@
           {
             "type": "item",
             "title": "AISP Overview",
-            "uri": "docs/API Overview/aisp.md"
-          },
-          {
-            "type": "item",
-            "title": "AISP Specification",
-            "uri": "swagger/tide-ais-schema.yaml"
+            "uri": "docs/API Overview/ais.md"
           }
         ]
       },
