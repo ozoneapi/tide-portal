@@ -45,6 +45,11 @@
         "title": "API Specifications"
       },
       {
+        "type": "item",
+        "title": "API Specification",
+        "uri": "swagger/tide-ais-schema.yaml"
+      },
+      {
         "type": "group",
         "title": "AISP",
         "items": [
