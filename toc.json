@@ -21,11 +21,6 @@
         "uri": "docs/40-sandbox.md"
       },
       {
-        "type": "item",
-        "title": "Planned Updates",
-        "uri": "docs/50-planned-updates.md"
-      },
-      {
         "type": "divider",
         "title": "API Overview"
       },
@@ -61,6 +56,11 @@
       {
         "type": "divider",
         "title": "Support"
+      },
+      {
+        "type": "item",
+        "title": "Planned Updates",
+        "uri": "docs/50-planned-updates.md"
       },
       {
         "type": "group",
