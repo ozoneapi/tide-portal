@@ -42,55 +42,45 @@
       },
       {
         "type": "divider",
-        "title": "API Specifications"
+        "title": "AISP Overview"
       },
       {
-        "type": "group",
-        "title": "AISP",
-        "items": [
-          {
-            "type": "item",
-            "title": "Overview",
-            "uri": "docs/API Overview/ais.md"
-          },
-          {
-            "type": "item",
-            "title": "API Specification",
-            "uri": "swagger/tide-ais-schema.yaml"
-          }
-        ]
+        "type": "item",
+        "title": "AISP Overview",
+        "uri": "docs/API Overview/ais.md"
       },
       {
-        "type": "group",
-        "title": "PISP",
-        "items": [
-          {
-            "type": "item",
-            "title": "Overview",
-            "uri": "docs/API Overview/pis.md"
-          },
-          {
-            "type": "item",
-            "title": "Payment Initiation API",
-            "uri": "swagger/tide-pis-schema.yaml"
-          }
-        ]
+        "type": "item",
+        "title": "AISP Detailed Specifications",
+        "uri": "swagger/tide-ais-schema.yaml"
       },
       {
-        "type": "group",
-        "title": "CBPII",
-        "items": [
-          {
-            "type": "item",
-            "title": "Overview",
-            "uri": "docs/API Overview/cbpii.md"
-          },
-          {
-            "type": "item",
-            "title": "Confirmation of Funds API Specification",
-            "uri": "swagger/tide-cbpii-schema.yaml"
-          }
-        ]
+        "type": "divider",
+        "title": "PISP Overview"
+      },
+      {
+        "type": "item",
+        "title": "PISP Overview",
+        "uri": "docs/API Overview/pis.md"
+      },
+      {
+        "type": "item",
+        "title": "PISP Detailed Specification",
+        "uri": "swagger/tide-pis-schema.yaml"
+      },
+      {
+        "type": "divider",
+        "title": "CBPII Overview"
+      },
+      {
+        "type": "item",
+        "title": "CBPII Overview",
+        "uri": "docs/API Overview/cbpii.md"
+      },
+      {
+        "type": "item",
+        "title": "CBPII Detailed Specification",
+        "uri": "swagger/tide-cbpii-schema.yaml"
       },
       {
         "type": "divider",
