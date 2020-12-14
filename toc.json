@@ -52,23 +52,45 @@
             "type": "item",
             "title": "AISP Overview",
             "uri": "docs/API Overview/ais.md"
+          },
+          {
+            "type": "item",
+            "title": "AISP Specification",
+            "uri": "swagger/tide-ais-schema.yaml"
           }
         ]
       },
       {
-        "type": "item",
-        "title": "PISP Specification",
-        "uri": "swagger/tide-pis-schema.yaml"
+        "type": "group",
+        "title": "PISP",
+        "items": [
+          {
+            "type": "item",
+            "title": "PISP Overview",
+            "uri": "docs/API Overview/pis.md"
+          },
+          {
+            "type": "item",
+            "title": "PISP Specification",
+            "uri": "swagger/tide-pis-schema.yaml"
+          }
+        ]
       },
       {
-        "type": "item",
-        "title": "CBPII Overview",
-        "uri": "docs/API Overview/pis.md"
-      },
-      {
-        "type": "item",
+        "type": "group",
         "title": "CBPII",
-        "uri": "swagger/tide-cbpii-schema.yaml"
+        "items": [
+          {
+            "type": "item",
+            "title": "CBPII Overview",
+            "uri": "docs/API Overview/pis.md"
+          },
+          {
+            "type": "item",
+            "title": "CBPII",
+            "uri": "swagger/tide-cbpii-schema.yaml"
+          }
+        ]
       },
       {
         "type": "divider",
