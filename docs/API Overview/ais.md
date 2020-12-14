@@ -93,3 +93,6 @@ Statements API
 > - GET /accounts/{AccountId}/statements/{StatementId}
 > - GET /accounts/{AccountId}/statements/{StatementId}/transactions
 > - GET /statements
+
+## 
+[Specifications](/swagger/tide-ais-schema.yaml)

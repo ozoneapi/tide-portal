@@ -45,19 +45,20 @@
         "title": "API Specifications"
       },
       {
-        "type": "item",
-        "title": "AISP Overview",
-        "uri": "docs/API Overview/aisp.md"
-      },
-      {
-        "type": "item",
-        "title": "AISP Specification",
-        "uri": "swagger/tide-ais-schema.yaml"
-      },
-      {
-        "type": "item",
-        "title": "AISP Overview",
-        "uri": "docs/API Overview/aisp.md"
+        "type": "group",
+        "title": "AISP",
+        "items": [
+          {
+            "type": "item",
+            "title": "AISP Overview",
+            "uri": "docs/API Overview/aisp.md"
+          },
+          {
+            "type": "item",
+            "title": "AISP Specification",
+            "uri": "swagger/tide-ais-schema.yaml"
+          }
+        ]
       },
       {
         "type": "item",
@@ -67,7 +68,7 @@
       {
         "type": "item",
         "title": "CBPII Overview",
-        "uri": "docs/API Overview/cbpii.md"
+        "uri": "docs/API Overview/pis.md"
       },
       {
         "type": "item",
