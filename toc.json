@@ -50,6 +50,11 @@
         "items": [
           {
             "type": "item",
+            "title": "Overview",
+            "uri": "docs/API Overview/ais.md"
+          },
+          {
+            "type": "item",
             "title": "API Specification",
             "uri": "swagger/tide-ais-schema.yaml"
           }
