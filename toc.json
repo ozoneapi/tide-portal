@@ -7,8 +7,8 @@
       },
       {
         "type": "item",
-        "title": "Getting started",
-        "uri": "docs/20-getting-started.md"
+        "title": "Security Model",
+        "uri": "docs/20-security-model.md"
       },
       {
         "type": "item",
@@ -30,7 +30,7 @@
         "items": [
           {
             "type": "item",
-            "title": "Endpoints",
+            "title": "Overview",
             "uri": "docs/API Overview/ais.md"
           },
           {
@@ -46,7 +46,7 @@
         "items": [
           {
             "type": "item",
-            "title": "Endpoints",
+            "title": "Overview",
             "uri": "docs/API Overview/pis.md"
           },
           {
@@ -62,8 +62,8 @@
         "items": [
           {
             "type": "item",
-            "title": "Endpoints",
-            "uri": "docs/API Overview/pis.md"
+            "title": "Overview",
+            "uri": "docs/API Overview/cbpii.md"
           },
           {
             "type": "item",

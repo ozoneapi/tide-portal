@@ -1,5 +1,12 @@
 # AISP API Overview
 
+The Account and Transaction API Profile describes the flows and common functionality for the Accounts and Transaction API, which allows an Account Information Service Provider ('AISP') to:
+
+- Register an intent to retrieve account information by creating an "account access consent". This registers the data "permissions", expiration and historical period allowed for transactions / statements - that the customer (PSU) has consented to provide to the AISP; and
+- Subsequently, retrieve account and transaction data.
+
+This profile should be read in conjunction with a compatible Read/Write Data API Profile which provides a description of the elements that are common across all the Read/Write Data APIs, and compatible individual resources.
+
 ## Base URL
 The base URL for all AIS APIs is: `https://rs1.openbanking.api.tide.co:4501/v1.0/open-banking/v3.1/aisp/**`
 
