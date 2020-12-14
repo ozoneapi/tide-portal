@@ -42,7 +42,7 @@
       },
       {
         "type": "divider",
-        "title": "API"
+        "title": "AISP Overview"
       },
       {
         "type": "item",
@@ -52,7 +52,11 @@
       {
         "type": "item",
         "title": "AISP Detailed Specifications",
-        "uri": "swagger/tide-aisp-schema.yaml"
+        "uri": "swagger/tide-ais-schema.yaml"
+      },
+      {
+        "type": "divider",
+        "title": "PISP Overview"
       },
       {
         "type": "item",
@@ -63,6 +67,10 @@
         "type": "item",
         "title": "PISP Detailed Specification",
         "uri": "swagger/tide-pis-schema.yaml"
+      },
+      {
+        "type": "divider",
+        "title": "CBPII Overview"
       },
       {
         "type": "item",
