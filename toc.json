@@ -15,11 +15,6 @@
         "title": "TPP Onboarding"
       },
       {
-        "type": "item",
-        "title": "Production",
-        "uri": "docs/30-production.md"
-      },
-      {
         "type": "group",
         "title": "Sandbox",
         "items": [
@@ -32,13 +27,29 @@
             "type": "item",
             "title": "Step by Step Guide",
             "uri": "docs/80-step-by-step-guide.md"
+          },
+          {
+            "type": "item",
+            "title": "Security Model",
+            "uri": "docs/20-security-model.md"
           }
         ]
       },
       {
-        "type": "item",
-        "title": "Security Model",
-        "uri": "docs/20-security-model.md"
+        "type": "group",
+        "title": "Production",
+        "items": [
+          {
+            "type": "item",
+            "title": "Overview",
+            "uri": "docs/30-production.md"
+          },
+          {
+            "type": "item",
+            "title": "Security Model",
+            "uri": "docs/20-security-model.md"
+          }
+        ]
       },
       {
         "type": "divider",
