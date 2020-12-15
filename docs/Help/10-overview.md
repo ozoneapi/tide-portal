@@ -62,7 +62,7 @@ Open Banking is the consumer-friendly name for the UK’s implementation of the 
 Under Open Banking, the Mandatory ASPs, such as Santander, must provide certain data through APIs that are available for anyone to access. These Open Data APIs include data such ATM and branch locations, as well as production details.
 
 ### Payment gateway
-A payment gateway is an intermediary between a merchant services provider –– that facilitates the processing of payment cards –– and ecommerce software.
+A payment gateway is an intermediary between a merchant services provider –– that facilitates the processing of payment cards –– and e-commerce software.
 
 ### PSD2
 The second edition of the European Union’s Payment Services Directive sets the framework for Open Banking and similar implementations across the EU.

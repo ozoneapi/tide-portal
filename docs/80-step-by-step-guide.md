@@ -166,7 +166,7 @@ Select accounts
 
 ![](../assets/images/consent3.png)
 
-Once the PSU consent is successful, Ozone bank will redirect back to the redirect URI. Copy the Authcode from the URL
+Once the PSU consent is successful, Ozone bank will redirect back to the redirect URI. Copy the auth code from the URL
 
 ![](../assets/images/consent4.png)
 

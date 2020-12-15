@@ -22,7 +22,7 @@ These read/write APIs provide the ability for authorised payment initiation serv
 
 #### Confirmation of Funds
 
-Ths read/write API allow a Card Based Payment Instrument Issuer ('CBPII') to make a request to confirm funds are available. This API is developed according to the Open Banking Read/Write API Specifications, see [https://www.openbanking.org.uk/](https://www.openbanking.org.uk/)
+This read/write API allow a Card Based Payment Instrument Issuer ('CBPII') to make a request to confirm funds are available. This API is developed according to the Open Banking Read/Write API Specifications, see [https://www.openbanking.org.uk/](https://www.openbanking.org.uk/)
 
 
 ### What are the roles a TPP can perform?
