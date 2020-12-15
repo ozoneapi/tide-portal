@@ -20,7 +20,7 @@ As defined further in the Tide Open Banking API Specification
 > For private_key_jwt - the `aud` claim is the url of the token endpoint as specified in OIDC client authentication
 > The request object used in OIDC flows the aud claim is the issuer url from the Tide ASPSP .wellknown endpoint (linked below).
 
-> Note: Our Sandbox API also offers less strict profiles to assist with integraiton testing. See below for more details.
+> Note: Our Sandbox API also offers less strict profiles to assist with integration testing. See below for more details.
 
 ## Certificate Support
 

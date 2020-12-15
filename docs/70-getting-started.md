@@ -1,17 +1,17 @@
 # Getting Started
 
-## Enroll with FCA
+## Enrol with FCA
 
 To access the production environment, you must be a TPP authorised by the FCA or passported into the UK. Instructions for accessing our Production APIs are [here](./30-production.md).
 
-## Enroll with Open Banking
+## Enrol with Open Banking
 
 You must also enrol onto the Open Banking Directory, the key component that enables TPPs to enrol with Open Banking and participate in account information and payment initiation transactions through APIs.
 
-- [Enrol to Open Banking](https://www.openbanking.org.uk/wp-content/uploads/Enrolling-Onto-Open-Banking-Guide.pdf)
+- [Enrol to Open Banking](https://www.openbanking.org.uk/wp-content/uploads/Enroling-Onto-Open-Banking-Guide.pdf)
 
 
-## Enroll with Tide using Dynamic Client Registration
+## Enrol with Tide using Dynamic Client Registration
 
 This specification defines the APIs for a TPP to submit a Software Statement Assertion to an ASPSP for the purpose of creating OAuth clients that are registered with ASPSP.
 
