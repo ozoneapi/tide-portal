@@ -1,4 +1,4 @@
-# Security Model1
+# Security Model
 
 ## Dynamic Client Registration
 
