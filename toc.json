@@ -52,26 +52,14 @@
         ]
       },
       {
-        "type": "divider",
-        "title": "AISP"
-      },
-      {
         "type": "item",
         "title": "AISP Specification",
         "uri": "swagger/tide-ais-schema.yaml"
       },
       {
-        "type": "divider",
-        "title": "PISP"
-      },
-      {
         "type": "item",
         "title": "PISP Specification",
         "uri": "swagger/tide-pis-schema.yaml"
-      },
-      {
-        "type": "divider",
-        "title": "CBPII Overview"
       },
       {
         "type": "item",

@@ -13,6 +13,9 @@ You can find out more about Open Banking here: [What is Open Banking](https://ww
 ## Content
 - [Getting Started](./70-getting-started.md)
 - [AIS Specification](../swagger/tide-ais-schema.yaml)
+- [PIS Specification](../swagger/tide-pis-schema.yaml)
+- [CBPII Specification](../swagger/tide-cbpii-schema.yaml)
+- [FAQ](../docs/Help/40-faqs.md)
 
 ## Contact Us
 
