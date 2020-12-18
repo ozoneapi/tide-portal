@@ -1,7 +1,7 @@
 # Getting Started
 ## Enrol with FCA
 
-To access the production environment, you must be a TPP authorised by the FCA or passported into the UK. Instructions for accessing our Production APIs are here[Production](./30-production.md).
+To access the production environment, you must be a TPP authorised by the FCA or passported into the UK. Instructions for accessing our [Production APIs](./30-production.md).
 
 ## Enrol with Open Banking
 
@@ -27,7 +27,7 @@ Our Sandbox fully reflects our production environment and provides an easy route
 
 ## Production
 
-To access the production environment, you must be a TPP authorised by the FCA or passported into the UK. Instructions for accessing our Production APIs are [here](./30-production.md).
+To access the production environment, you must be a TPP authorised by the FCA or passported into the UK. Instructions for accessing our [Production APIs](./30-production.md).
 
 
 ## API Documentation
