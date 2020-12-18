@@ -7,7 +7,7 @@ To access the production environment, you must be a TPP authorised by the FCA or
 
 You must also enrol onto the Open Banking Directory, the key component that enables TPPs to enrol with Open Banking and participate in account information and payment initiation transactions through APIs.
 
-- [Enrol to Open Banking](https://www.openbanking.org.uk/wp-content/uploads/Enroling-Onto-Open-Banking-Guide.pdf)
+- [Enrol to Open Banking](https://www.openbanking.org.uk/wp-content/uploads/Enrolling-Onto-Open-Banking-Guide.pdf)
 
 
 ## Enrol with Tide using Dynamic Client Registration
