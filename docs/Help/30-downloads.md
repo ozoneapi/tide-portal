@@ -1,4 +1,4 @@
-# Resources
+# Downloads
 
 ## Postman Collections
 
