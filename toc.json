@@ -12,6 +12,46 @@
       },
       {
         "type": "divider",
+        "title": "Support"
+      },
+      {
+        "type": "item",
+        "title": "Planned Updates",
+        "uri": "docs/50-planned-updates.md"
+      },
+      {
+        "type": "group",
+        "title": "Help",
+        "items": [
+          {
+            "type": "item",
+            "title": "Overview",
+            "uri": "docs/Help/10-overview.md"
+          },
+          {
+            "type": "item",
+            "title": "Usage Guides",
+            "uri": "docs/Help/20-usage-guides.md"
+          },
+          {
+            "type": "item",
+            "title": "Resources",
+            "uri": "docs/Help/30-resources.md"
+          },
+          {
+            "type": "item",
+            "title": "FAQs",
+            "uri": "docs/Help/40-faqs.md"
+          }
+        ]
+      },
+      {
+        "type": "item",
+        "title": "Contact Us",
+        "uri": "docs/60-contact-us.md"
+      },
+      {
+        "type": "divider",
         "title": "TPP Onboarding"
       },
       {
@@ -65,46 +105,6 @@
         "type": "item",
         "title": "CBPII Specification",
         "uri": "swagger/tide-cbpii-schema.yaml"
-      },
-      {
-        "type": "divider",
-        "title": "Support"
-      },
-      {
-        "type": "item",
-        "title": "Planned Updates",
-        "uri": "docs/50-planned-updates.md"
-      },
-      {
-        "type": "group",
-        "title": "Help",
-        "items": [
-          {
-            "type": "item",
-            "title": "Overview",
-            "uri": "docs/Help/10-overview.md"
-          },
-          {
-            "type": "item",
-            "title": "Usage Guides",
-            "uri": "docs/Help/20-usage-guides.md"
-          },
-          {
-            "type": "item",
-            "title": "Resources",
-            "uri": "docs/Help/30-resources.md"
-          },
-          {
-            "type": "item",
-            "title": "FAQs",
-            "uri": "docs/Help/40-faqs.md"
-          }
-        ]
-      },
-      {
-        "type": "item",
-        "title": "Contact Us",
-        "uri": "docs/60-contact-us.md"
       }
     ]
   }
