@@ -1,13 +1,13 @@
 # Getting Started
 ## Enrol with FCA
 
-To access the production environment, you must be a TPP authorised by the FCA or passported into the UK. Instructions for accessing our Production APIs are [here](./30-production.md).
+To access the production environment, you must be a TPP authorised by the FCA or passported into the UK. Instructions for accessing our [Production APIs](./30-production.md).
 
 ## Enrol with Open Banking
 
 You must also enrol onto the Open Banking Directory, the key component that enables TPPs to enrol with Open Banking and participate in account information and payment initiation transactions through APIs.
 
-- [Enrol to Open Banking](https://www.openbanking.org.uk/wp-content/uploads/Enroling-Onto-Open-Banking-Guide.pdf)
+- [Enrol to Open Banking](https://www.openbanking.org.uk/wp-content/uploads/Enrolling-Onto-Open-Banking-Guide.pdf)
 
 
 ## Enrol with Tide using Dynamic Client Registration
@@ -27,7 +27,7 @@ Our Sandbox fully reflects our production environment and provides an easy route
 
 ## Production
 
-To access the production environment, you must be a TPP authorised by the FCA or passported into the UK. Instructions for accessing our Production APIs are [here](./30-production.md).
+To access the production environment, you must be a TPP authorised by the FCA or passported into the UK. Instructions for accessing our [Production APIs](./30-production.md).
 
 
 ## API Documentation

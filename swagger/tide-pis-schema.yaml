@@ -26147,15 +26147,15 @@ securityDefinitions:
   PSUOAuth2Security:
     type: oauth2
     flow: accessCode
-    tokenUrl: 'https://authserver.example/token'
-    authorizationUrl: 'https://authserver.example/authorization'
+    tokenUrl: 'https://auth1.openbanking.api.tide.co:4201/token'
+    authorizationUrl: 'https://app.tide.co/links/openbanking/authorise'
     scopes:
       payments: Generic payment scope
     description: 'OAuth flow, it is required when the PSU needs to perform SCA with the ASPSP when a TPP wants to access an ASPSP resource owned by the PSU'
   TPPOAuth2Security:
     type: oauth2
     flow: application
-    tokenUrl: 'https://authserver.example/token'
+    tokenUrl: 'https://auth1.openbanking.api.tide.co:4201/token'
     scopes:
       payments: Generic payment scope
     description: TPP client credential authorisation flow with the ASPSP
