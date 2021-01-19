@@ -19,17 +19,17 @@
           {
             "type": "item",
             "title": "Overview",
-            "uri": "tpp-onboarding/sandbox.md"
+            "uri": "docs/tpp-onboarding/sandbox.md"
           },
           {
             "type": "item",
             "title": "Step by Step Guide",
-            "uri": "tpp-onboarding/step-by-step-guide.md"
+            "uri": "docs/tpp-onboarding/step-by-step-guide.md"
           },
           {
             "type": "item",
             "title": "Security Model",
-            "uri": "tpp-onboarding/security-model.md"
+            "uri": "docs/tpp-onboarding/security-model.md"
           }
         ]
       },
