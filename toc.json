@@ -1,64 +1,17 @@
 {
     "items": [
-      {
-        "type": "item",
-        "title": "Introduction",
-        "uri": "docs/10-index.md"
-      },
-      {
-        "type": "item",
-        "title": "Getting Started",
-        "uri": "docs/70-getting-started.md"
-      },
-
-
-      {
-        "type": "divider",
-        "title": "Support"
-      },
-      {
-        "type": "item",
-        "title": "Contact Us",
-        "uri": "docs/60-contact-us.md"
-      },
-      {
-        "type": "item",
-        "title": "Planned Updates",
-        "uri": "docs/50-planned-updates.md"
-      },
-
-      {
-        "type": "divider",
-        "title": "Overview"
-      },
-
-
-      {
-        "type": "item",
-        "title": "Glossary",
-        "uri": "docs/Help/10-glossary.md"
-      },
-      {
-        "type": "item",
-        "title": "Usage Guides",
-        "uri": "docs/Help/20-usage-guides.md"
-      },
-      {
-        "type": "item",
-        "title": "Downloads",
-        "uri": "docs/Help/30-downloads.md"
-      },
-      {
-        "type": "item",
-        "title": "FAQs",
-        "uri": "docs/Help/40-faqs.md"
-      },
-
 
       {
         "type": "divider",
         "title": "TPP Onboarding"
       },
+
+      {
+        "type": "item",
+        "title": "Introduction",
+        "uri": "tpp-onboarding/introduction.md"
+      },      
+      
       {
         "type": "group",
         "title": "Sandbox",
@@ -66,17 +19,17 @@
           {
             "type": "item",
             "title": "Overview",
-            "uri": "docs/40-sandbox.md"
+            "uri": "tpp-onboarding/sandbox.md"
           },
           {
             "type": "item",
             "title": "Step by Step Guide",
-            "uri": "docs/80-step-by-step-guide.md"
+            "uri": "tpp-onboarding/step-by-step-guide.md"
           },
           {
             "type": "item",
             "title": "Security Model",
-            "uri": "docs/20-security-model.md"
+            "uri": "tpp-onboarding/security-model.md"
           }
         ]
       },
@@ -87,12 +40,12 @@
           {
             "type": "item",
             "title": "Overview",
-            "uri": "docs/30-production.md"
+            "uri": "tpp-onboarding/production.md"
           },
           {
             "type": "item",
             "title": "Security Model",
-            "uri": "docs/20-security-model.md"
+            "uri": "tpp-onboarding/security-model.md"
           }
         ]
       },
