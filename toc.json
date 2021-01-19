@@ -8,12 +8,6 @@
 
       {
         "type": "item",
-        "title": "Test of Patience",
-        "uri": "docs/tpp-onboarding/introduction.md"
-      },      
-
-      {
-        "type": "item",
         "title": "Introduction",
         "uri": "docs/tpp-onboarding/introduction.md"
       },      
@@ -46,12 +40,12 @@
           {
             "type": "item",
             "title": "Overview",
-            "uri": "tpp-onboarding/production.md"
+            "uri": "docs/tpp-onboarding/production.md"
           },
           {
             "type": "item",
             "title": "Security Model",
-            "uri": "tpp-onboarding/security-model.md"
+            "uri": "docs/tpp-onboarding/security-model.md"
           }
         ]
       },
