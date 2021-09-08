@@ -21,13 +21,13 @@ Please see the following specifications we have aligned with:
 
 ## Sandbox
 
-We recommend that you start off by accessing our [Sandbox](./40-sandbox.md). 
+We recommend that you start off by accessing our [Sandbox](./sandbox.md).  
 
 Our Sandbox fully reflects our production environment and provides an easy route to testing out your proposition.
 
 ## Production
 
-To access the production environment, you must be a TPP authorised by the FCA or passported into the UK. Instructions for accessing our [Production APIs](./30-production.md).
+To access the production environment, you must be a TPP authorised by the FCA or passported into the UK. Instructions for accessing our [Production APIs](./production.md). 
 
 
 ## API Documentation
@@ -39,7 +39,7 @@ Please see the following specifications we have aligned with:
 - Open Banking API Specification: Based on Open Banking Read/Write API Specification v3.1.2, this specification describes the resources that are available on our service:
   - [Accounts & Transaction Information API](../swagger/tide-ais-schema.yaml)
   - [Confirmation Of Funds API](../swagger/tide-cbpii-schema.yaml)
-  - [Payment Initiation API](../swagger//tide-pis-schema.yaml)
+  - [Payment Initiation API](../swagger/tide-pis-schema.yaml)
 
 ### Screen scraping
 <!-- theme: success -->
