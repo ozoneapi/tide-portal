@@ -9,7 +9,7 @@ Tide is an FCA registered Account Servicing Payment Service Provider (ASPSP) who
 You can find out more about Open Banking here: [What is Open Banking](https://www.openbanking.org.uk/customers/what-is-open-banking/)
 
 ## Content
-- [Getting Started](./70-getting-started.md)
+- [Getting Started](../docs/tpp-onboarding/introduction.md)
 - [AIS Specification](../swagger/tide-ais-schema.yaml)
 - [PIS Specification](../swagger/tide-pis-schema.yaml)
 - [CBPII Specification](../swagger/tide-cbpii-schema.yaml)
